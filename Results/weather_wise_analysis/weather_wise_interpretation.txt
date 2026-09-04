@@ -1,0 +1,10 @@
+On ACDC, Faster R-CNN achieved its highest weather-specific performance under fog conditions (mAP@0.50:0.95 = 0.547). Its lowest performance was observed under rain conditions (mAP@0.50:0.95 = 0.363).
+
+On ACDC, YOLOv11s achieved its highest weather-specific performance under fog conditions (mAP@0.50:0.95 = 0.413). Its lowest performance was observed under rain conditions (mAP@0.50:0.95 = 0.308).
+
+On DAWN, Faster R-CNN achieved its highest weather-specific performance under rain conditions (mAP@0.50:0.95 = 0.516). Its lowest performance was observed under fog conditions (mAP@0.50:0.95 = 0.415).
+
+On DAWN, YOLOv11s achieved its highest weather-specific performance under snow conditions (mAP@0.50:0.95 = 0.452). Its lowest performance was observed under rain conditions (mAP@0.50:0.95 = 0.357).
+
+Overall summary:
+Across all in-domain model and dataset combinations, snow produced the highest average mAP@0.50:0.95 (0.442), while rain produced the lowest average performance (0.386). However, the weather ranking was not identical across all datasets and models, indicating that weather effects also depend on the training dataset and model architecture.

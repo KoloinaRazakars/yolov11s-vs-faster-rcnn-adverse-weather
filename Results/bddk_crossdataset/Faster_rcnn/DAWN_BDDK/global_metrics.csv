@@ -1,0 +1,2 @@
+model,framework,architecture,source_dataset,target_dataset,split,seed,images_evaluated,mAP50_95,mAP50,mAP75,mAP_small,mAP_medium,mAP_large,mean_inference_ms,median_inference_ms,FPS
+Faster R-CNN,Detectron2,faster_rcnn_R_50_FPN_3x,DAWN,BDD100K,val_as_external_test,42,1504,0.14307605011476637,0.28280709873061505,0.13171307470936955,0.034830421664230456,0.12712872126956354,0.3189095554535691,52.72067388297996,52.575821000118594,18.96789108234131

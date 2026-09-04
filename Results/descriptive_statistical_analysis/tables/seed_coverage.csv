@@ -1,0 +1,9 @@
+scenario,model,rows,number_of_seeds,seeds
+ACDC in-domain,Faster R-CNN,2,2,"42, 123"
+ACDC in-domain,YOLOv11s,5,3,"42, 123, 456"
+ACDC → DAWN,Faster R-CNN,3,3,"42, 123, 456"
+ACDC → DAWN,YOLOv11s,3,3,"42, 123, 456"
+DAWN in-domain,Faster R-CNN,3,3,"42, 123, 456"
+DAWN in-domain,YOLOv11s,2,2,"123, 456"
+DAWN → ACDC,Faster R-CNN,3,3,"42, 123, 456"
+DAWN → ACDC,YOLOv11s,3,3,"42, 123, 456"

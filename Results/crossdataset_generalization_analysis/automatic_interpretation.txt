@@ -1,0 +1,8 @@
+- The highest mean global cross-dataset mAP50-95 was obtained by Faster R-CNN for ACDC → DAWN (0.2589 ± 0.0038).
+- For ACDC → DAWN, Faster R-CNN achieved the higher mean global mAP50-95, with an absolute difference of 0.1454.
+- For DAWN → ACDC, Faster R-CNN achieved the higher mean global mAP50-95, with an absolute difference of 0.0727.
+- For Faster R-CNN under ACDC → DAWN, snow produced the strongest mean mAP50-95 (0.3120), while rain produced the weakest (0.2372).
+- For YOLOv11s under ACDC → DAWN, snow produced the strongest mean mAP50-95 (0.1844), while fog produced the weakest (0.0873).
+- For Faster R-CNN under DAWN → ACDC, fog produced the strongest mean mAP50-95 (0.2131), while rain produced the weakest (0.1427).
+- For YOLOv11s under DAWN → ACDC, snow produced the strongest mean mAP50-95 (0.1020), while rain produced the weakest (0.0793).
+- The largest relative deterioration from the source in-domain baseline occurred for Faster R-CNN under DAWN → ACDC, with a 66.76% reduction in mAP50-95.

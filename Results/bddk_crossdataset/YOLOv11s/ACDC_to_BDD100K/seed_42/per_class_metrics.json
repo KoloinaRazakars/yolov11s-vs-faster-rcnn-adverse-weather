@@ -1,0 +1,80 @@
+[
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 0,
+        "class_name": "person",
+        "ground_truth_object_count": 1963,
+        "mAP50_95": 0.13196183798734257,
+        "precision": 0.6689491324706129,
+        "recall": 0.2532288989324766,
+        "f1_score": 0.3673851392873274
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 1,
+        "class_name": "bicycle",
+        "ground_truth_object_count": 138,
+        "mAP50_95": 0.06762433799387538,
+        "precision": 0.22449539525140266,
+        "recall": 0.2246376811594203,
+        "f1_score": 0.22456651566723657
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 2,
+        "class_name": "car",
+        "ground_truth_object_count": 14573,
+        "mAP50_95": 0.27550839078663625,
+        "precision": 0.7354472451488433,
+        "recall": 0.4508337336169629,
+        "f1_score": 0.5589981350855323
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 3,
+        "class_name": "motorcycle",
+        "ground_truth_object_count": 40,
+        "mAP50_95": 0.044468278336332774,
+        "precision": 0.1365229267744887,
+        "recall": 0.2,
+        "f1_score": 0.1622747407827885
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 4,
+        "class_name": "bus",
+        "ground_truth_object_count": 265,
+        "mAP50_95": 0.01564638565317618,
+        "precision": 0.0765870446101144,
+        "recall": 0.06037735849056604,
+        "f1_score": 0.06752299639138681
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "ACDC",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 5,
+        "class_name": "truck",
+        "ground_truth_object_count": 754,
+        "mAP50_95": 0.06263008707880034,
+        "precision": 0.45621160316161,
+        "recall": 0.11126733556575244,
+        "f1_score": 0.17890161580907724
+    }
+]

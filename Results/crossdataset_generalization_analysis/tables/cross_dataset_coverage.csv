@@ -1,0 +1,5 @@
+transfer_direction,model,number_of_seeds,seeds,number_of_conditions,conditions,number_of_rows
+ACDC → DAWN,Faster R-CNN,3,"42, 123, 456",4,"fog, global, rain, snow",12
+ACDC → DAWN,YOLOv11s,3,"42, 123, 456",4,"fog, global, rain, snow",12
+DAWN → ACDC,Faster R-CNN,3,"42, 123, 456",4,"fog, global, rain, snow",12
+DAWN → ACDC,YOLOv11s,3,"42, 123, 456",4,"fog, global, rain, snow",12

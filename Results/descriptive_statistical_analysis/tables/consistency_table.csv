@@ -1,0 +1,13 @@
+scenario,metric,number_of_paired_seeds,Faster_wins,YOLO_wins,ties,consistency_Faster,consistency_YOLO,winner_by_mean
+ACDC in-domain,FPS,2,0,2,0,0/2,2/2,YOLOv11s
+ACDC in-domain,mAP50,2,2,0,0,2/2,0/2,Faster R-CNN
+ACDC in-domain,mAP50-95,2,2,0,0,2/2,0/2,Faster R-CNN
+ACDC → DAWN,FPS,3,0,3,0,0/3,3/3,YOLOv11s
+ACDC → DAWN,mAP50,3,3,0,0,3/3,0/3,Faster R-CNN
+ACDC → DAWN,mAP50-95,3,3,0,0,3/3,0/3,Faster R-CNN
+DAWN in-domain,FPS,2,0,2,0,0/2,2/2,YOLOv11s
+DAWN in-domain,mAP50,2,2,0,0,2/2,0/2,Faster R-CNN
+DAWN in-domain,mAP50-95,2,2,0,0,2/2,0/2,Faster R-CNN
+DAWN → ACDC,FPS,3,0,3,0,0/3,3/3,YOLOv11s
+DAWN → ACDC,mAP50,3,3,0,0,3/3,0/3,Faster R-CNN
+DAWN → ACDC,mAP50-95,3,3,0,0,3/3,0/3,Faster R-CNN

@@ -1,0 +1,30 @@
+{
+    "experiment_name": "YOLOv11s_ACDC_to_BDD100K_seed_42",
+    "model": "YOLOv11s",
+    "training_dataset": "ACDC",
+    "testing_dataset": "BDD100K",
+    "seed": 42,
+    "model_path": "/content/drive/MyDrive/Dissertation/Runs/yolo/acdc_in_domain_yolo11s_seed42/weights/best.pt",
+    "dataset_yaml": "/content/drive/MyDrive/Dissertation/Datasets/processed/BDD100K/yolo/dataset.yaml",
+    "evaluation_split": "val",
+    "evaluation_role": "external cross-dataset testing",
+    "number_of_images": 1504,
+    "number_of_label_files": 1504,
+    "image_size": 640,
+    "batch_size": 16,
+    "device": 0,
+    "workers": 2,
+    "confidence_threshold": 0.001,
+    "nms_iou_threshold": 0.6,
+    "classes": {
+        "0": "person",
+        "1": "bicycle",
+        "2": "car",
+        "3": "motorcycle",
+        "4": "bus",
+        "5": "truck"
+    },
+    "raw_run_directory": "/content/drive/MyDrive/Dissertation/Runs/yolo/acdc_bddk_seed42/YOLOv11s_ACDC_to_BDD100K_seed_42",
+    "clean_metrics_directory": "/content/drive/MyDrive/Dissertation/Results/bddk_crossdataset/YOLOv11s/ACDC_to_BDD100K/seed_42",
+    "evaluation_date": "2026-07-18T10:33:05.801546"
+}

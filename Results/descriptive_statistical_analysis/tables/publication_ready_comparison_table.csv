@@ -1,0 +1,13 @@
+scenario,metric,paired seeds,YOLOv11s mean ± SD,Faster R-CNN mean ± SD,mean difference (Faster − YOLO),paired Cohen's dz,Faster wins,YOLO wins,winner by mean
+ACDC in-domain,FPS,2,591.21 ± 716.54,16.15 ± 0.06,-575.06,-0.803 (large),0/2,2/2,YOLOv11s
+ACDC in-domain,mAP50,2,0.5348 ± 0.0193,0.6042 ± 0.0111,0.0694,8.545 (large),2/2,0/2,Faster R-CNN
+ACDC in-domain,mAP50-95,2,0.3446 ± 0.0166,0.4205 ± 0.0109,0.0759,13.442 (large),2/2,0/2,Faster R-CNN
+ACDC → DAWN,FPS,3,216.45 ± 86.88,20.82 ± 0.51,-195.62,-2.240 (large),0/3,3/3,YOLOv11s
+ACDC → DAWN,mAP50,3,0.1877 ± 0.0194,0.3813 ± 0.0037,0.1936,8.390 (large),3/3,0/3,Faster R-CNN
+ACDC → DAWN,mAP50-95,3,0.1135 ± 0.0167,0.2589 ± 0.0038,0.1454,7.451 (large),3/3,0/3,Faster R-CNN
+DAWN in-domain,FPS,2,599.09 ± 536.67,20.09 ± 0.12,-579.01,-1.079 (large),0/2,2/2,YOLOv11s
+DAWN in-domain,mAP50,2,0.5302 ± 0.0311,0.6919 ± 0.0392,0.1617,20.194 (large),2/2,0/2,Faster R-CNN
+DAWN in-domain,mAP50-95,2,0.3137 ± 0.0545,0.4408 ± 0.0257,0.1271,4.404 (large),2/2,0/2,Faster R-CNN
+DAWN → ACDC,FPS,3,291.86 ± 14.86,9.76 ± 6.27,-282.10,-31.805 (large),0/3,3/3,YOLOv11s
+DAWN → ACDC,mAP50,3,0.1504 ± 0.0370,0.2683 ± 0.0093,0.1180,4.237 (large),3/3,0/3,Faster R-CNN
+DAWN → ACDC,mAP50-95,3,0.0828 ± 0.0206,0.1555 ± 0.0054,0.0727,4.606 (large),3/3,0/3,Faster R-CNN

@@ -1,0 +1,3 @@
+On ACDC, Faster R-CNN achieved an mAP@0.50:0.95 of 0.413, compared with 0.333 for YOLOv11s. This represents an absolute improvement of 0.080.
+
+On DAWN, Faster R-CNN achieved an mAP@0.50:0.95 of 0.468, compared with 0.340 for YOLOv11s. This represents an absolute improvement of 0.128.

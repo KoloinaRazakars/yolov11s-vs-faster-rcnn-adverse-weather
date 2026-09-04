@@ -1,0 +1,80 @@
+[
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 0,
+        "class_name": "person",
+        "ground_truth_object_count": 1963,
+        "mAP50_95": 0.07449810632275804,
+        "precision": 0.5616761833581325,
+        "recall": 0.17575140091696384,
+        "f1_score": 0.2677290033405086
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 1,
+        "class_name": "bicycle",
+        "ground_truth_object_count": 138,
+        "mAP50_95": 0.004324670723766067,
+        "precision": 0.5815499696243585,
+        "recall": 0.014492753623188406,
+        "f1_score": 0.02828072586279398
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 2,
+        "class_name": "car",
+        "ground_truth_object_count": 14573,
+        "mAP50_95": 0.2303871647851285,
+        "precision": 0.728685217268096,
+        "recall": 0.35908872572565703,
+        "f1_score": 0.48109747031406297
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 3,
+        "class_name": "motorcycle",
+        "ground_truth_object_count": 40,
+        "mAP50_95": 0.00015151515151515152,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 4,
+        "class_name": "bus",
+        "ground_truth_object_count": 265,
+        "mAP50_95": 0.034149476692274604,
+        "precision": 0.13365362359836408,
+        "recall": 0.12075471698113208,
+        "f1_score": 0.1268771727716221
+    },
+    {
+        "model": "YOLOv11s",
+        "training_dataset": "DAWN",
+        "testing_dataset": "BDD100K",
+        "seed": 42,
+        "class_id": 5,
+        "class_name": "truck",
+        "ground_truth_object_count": 754,
+        "mAP50_95": 0.04275692800796788,
+        "precision": 0.12090049223205637,
+        "recall": 0.20557029177718833,
+        "f1_score": 0.15225588739631743
+    }
+]

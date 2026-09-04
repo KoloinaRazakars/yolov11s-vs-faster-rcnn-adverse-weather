@@ -1,0 +1,19 @@
+{
+  "model": "Faster R-CNN",
+  "framework": "Detectron2",
+  "architecture": "faster_rcnn_R_50_FPN_3x",
+  "source_dataset": "DAWN",
+  "target_dataset": "BDD100K",
+  "split": "val_as_external_test",
+  "seed": 42,
+  "images_evaluated": 1504,
+  "mAP50_95": 0.14307605011476637,
+  "mAP50": 0.28280709873061505,
+  "mAP75": 0.13171307470936955,
+  "mAP_small": 0.034830421664230456,
+  "mAP_medium": 0.12712872126956354,
+  "mAP_large": 0.3189095554535691,
+  "mean_inference_ms": 52.72067388297996,
+  "median_inference_ms": 52.575821000118594,
+  "FPS": 18.96789108234131
+}
