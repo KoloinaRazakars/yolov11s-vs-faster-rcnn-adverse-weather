@@ -1,0 +1,4 @@
+dataset,split,images,label_files,images_with_objects,images_without_objects,objects,average_objects_per_image
+ACDC,train,1620,1620,1591,29,10175,6.28
+ACDC,val,540,540,535,5,3333,6.17
+ACDC,test,540,540,533,7,3358,6.22

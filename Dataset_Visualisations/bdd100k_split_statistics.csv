@@ -1,0 +1,3 @@
+dataset,split,images,label_files,images_with_objects,images_without_objects,objects,average_objects_per_image
+BDD100K,train,10693,10693,10693,0,122579,11.46
+BDD100K,val,1504,1504,1504,0,17733,11.79

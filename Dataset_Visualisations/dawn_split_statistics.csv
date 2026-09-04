@@ -1,0 +1,4 @@
+dataset,split,images,label_files,images_with_objects,images_without_objects,objects,average_objects_per_image
+DAWN,train,423,423,423,0,3358,7.94
+DAWN,val,140,140,140,0,1332,9.51
+DAWN,test,140,140,140,0,920,6.57
